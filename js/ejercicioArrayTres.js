@@ -23,6 +23,7 @@ for(let i = 0; i < 50; i++){
     dadoDos = numeroRandom();
     sumaDados.push(dadoUno + dadoDos);
 }
+// console.log(sumaDados);
 console.log(sumaDados.sort());
 for(let i = 0; i<sumaDados.length;i++){
     if(sumaDados[i] == 2){
