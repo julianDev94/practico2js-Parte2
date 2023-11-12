@@ -1,9 +1,10 @@
 const ciudades = [];
-// let modificacionUltimaCiudad;
+
 do{
     let ciudad = prompt("Ingrese el nombre de la ciudad");
     ciudades.push(ciudad);
 }while(confirm("Desea seguir ingresando ciudades?"));
+
 document.write(`<p id="longitudArrayCiudad"> El arreglo de ciudades tiene ${ciudades.length} elementos</p>`);
 document.write(`<ul>
                 <li>Elemento 1er posicion: ${ciudades[0]}</li>
