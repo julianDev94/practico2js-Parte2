@@ -15,4 +15,6 @@ tablaMultiplicar = (valorMultiplicar) => {
 
 if (Number.isInteger(valor)) {
     tablaMultiplicar(valor);
+}else{
+  alert("Por favor ingrese un valor válido");
 }
