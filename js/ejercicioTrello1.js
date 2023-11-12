@@ -12,15 +12,12 @@ valorMayorArreglo = arregloMayor =>{
 }
 
 do{
-
     let valor = parseInt(prompt("Ingrese un valor: "));
     if(Number.isInteger(valor)){
         arregloValores.push(valor);
     }else{
         alert("El valor ingresado no es numero, por favor ingrese un valor numérico");        
     }
-    
-
 }while(confirm("Desea seguir agregando valores al arreglo?"));
 
 mayorValor = valorMayorArreglo(arregloValores);
